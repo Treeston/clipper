@@ -1,0 +1,8 @@
+## Interface: 20501
+## Title: Clipper
+## Author: gallantron
+## OptionalDeps: Ace3, LibSharedMedia-3.0
+## SavedVariables: Clipper__DB
+
+externals.xml
+Clipper.lua
