@@ -1,4 +1,4 @@
-## Interface: 20501
+## Interface: 20502
 ## Title: Clipper
 ## Author: gallantron
 ## OptionalDeps: Ace3, LibSharedMedia-3.0
