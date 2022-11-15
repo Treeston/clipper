@@ -8,6 +8,8 @@ local DATA = {
         [11672] = "corruption",
         [25311] = "corruption",
         [27216] = "corruption",
+        [47812] = "corruption",
+        [47813] = "corruption",
         
         [348] = "immolate",
         [707] = "immolate",
@@ -18,10 +20,14 @@ local DATA = {
         [25309] = "immolate",
         [11668] = "immolate",
         [27215] = "immolate",
+        [47810] = "immolate",
+        [47811] = "immolate",
         
         [30108] = "ua",
         [30404] = "ua",
         [30405] = "ua",
+        [47841] = "ua",
+        [47843] = "ua",
         
         [18265] = "sl",
         [18879] = "sl",
@@ -38,6 +44,7 @@ local DATA = {
         [11700] = "drainlife",
         [27219] = "drainlife",
         [27220] = "drainlife",
+        [47857] = "drainlife",
         drainlife = true, -- channel flag
         
         [5138] = "drainmana",
@@ -61,6 +68,8 @@ local DATA = {
         [9835] = "moonfire",
         [26987] = "moonfire",
         [26988] = "moonfire",
+        [48462] = "moonfire",
+        [48463] = "moonfire",
         
         [5570] = "is",
         [24974] = "is",
@@ -68,11 +77,14 @@ local DATA = {
         [24976] = "is",
         [24977] = "is",
         [27013] = "is",
+        [48468] = "is",
     },
     PRIEST = {
         [34914] = "vt",
         [34916] = "vt",
         [34917] = "vt",
+        [48159] = "vt",
+        [48160] = "vt",
         
         [589] = "swp",
         [594] = "swp",
@@ -84,6 +96,8 @@ local DATA = {
         [10894] = "swp",
         [25367] = "swp",
         [25368] = "swp",
+        [48124] = "swp",
+        [48125] = "swp",
         
         [15407] = "mindflay",
         [17311] = "mindflay",
@@ -92,7 +106,13 @@ local DATA = {
         [17314] = "mindflay",
         [18807] = "mindflay",
         [25387] = "mindflay",
+        [48155] = "mindflay",
+        [48156] = "mindflay",
         mindflay = true, -- channel flag
+        
+        [48045] = "mindsear",
+        [53023] = "mindsear",
+        mindsear = true, -- channel flag
     },
     HUNTER = {
         [1978] = "serpsting",
@@ -105,6 +125,8 @@ local DATA = {
         [13555] = "serpsting",
         [25295] = "serpsting",
         [27016] = "serpsting",
+        [49000] = "serpsting",
+        [49001] = "serpsting",
         
         [3034] = "vipersting",
         [14279] = "vipersting",
