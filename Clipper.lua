@@ -421,14 +421,16 @@ do
         if type(id) == "number" then
             if not aceConfigTableSpells.args[key] then
                 local name, _, icon = GetSpellInfo(id)
-                tinsert(spellList, { name, key })
-                aceConfigTableSpells.args[key] = {
-                    name  = ("|T%d:0|t %s%s"):format(icon, name, MYDATA[key] and " [|cffaaaaffChannel|r]" or ""),
-                    type  = "toggle",
-                    width = "full",
-                    get   = function() return not MYOPTIONS.ignored[key] end,
-                    set   = function(_,v) if v then MYOPTIONS.ignored[key] = nil else MYOPTIONS.ignored[key] = true end end,
-                }
+                if name then
+                    tinsert(spellList, { name, key })
+                    aceConfigTableSpells.args[key] = {
+                        name  = ("|T%d:0|t %s%s"):format(icon, name, MYDATA[key] and " [|cffaaaaffChannel|r]" or ""),
+                        type  = "toggle",
+                        width = "full",
+                        get   = function() return not MYOPTIONS.ignored[key] end,
+                        set   = function(_,v) if v then MYOPTIONS.ignored[key] = nil else MYOPTIONS.ignored[key] = true end end,
+                    }
+                end
             end
         end
     end
